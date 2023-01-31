@@ -32,7 +32,7 @@
     "test:e2e": "yarn build && cypress run",
     "test:e2e:open": "yarn build && cypress open",
     "devserver:start": "yarn build && node ./devserver.js",
-    "prepare": "yarn pull_tools && yarn tools:update && yarn build"
+    "prepare": "yarn build"
   },
   "author": "CodeX",
   "license": "Apache-2.0",
